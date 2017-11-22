@@ -228,7 +228,7 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="ma
 
 /*===== footer ===*/
 
-footer[role="footer"]{ background-color:#FFF; padding-top:100px; padding-bottom:77px}
+footer[role="footer"]{ background-color:#FFF; padding-top:5px; padding-bottom:77px}
 
 footer[role="footer"] > h1 a{ margin:0 auto; display:block; max-width:66px;}
 
@@ -423,4 +423,31 @@ article[role="pge-title-content"].contact-header p a:hover{color:#fb5353; text-d
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+/*footer*/
+
+
+/*--------------------------------------------------------------
+	Footer
+--------------------------------------------------------------*/
+.footer {
+  padding: 10px 0;
+  position: static;
+}
+
+.footer .copyright {
+  margin: 0;
+}
+
+.footer .footer-social-links {
+  text-align: right;
+}
+
+.footer .footer-social-links a {
+  display: inline-block;
+  padding: 0 6px;
+}
+.bg-dark {
+  background: #111;
 }
