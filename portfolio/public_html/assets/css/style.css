@@ -735,8 +735,8 @@ a,
 
 .btn.btn-border-d:hover,
 .btn.btn-border-d:focus {
-  background: #111111;
-  color: #fff;
+  background: #ffc600;
+  color: black;
 }
 
 .btn.btn-font-w {
@@ -918,7 +918,7 @@ blockquote {
 
 .module-subtitle {
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   color: #111;
   margin-bottom: 70px;
 }
@@ -1114,7 +1114,8 @@ Hero Slider
 .caption-content {
   display: table-cell;
   vertical-align: middle;
-  text-align: center;
+text-align: center;
+
 }
 
 /*
@@ -1267,6 +1268,7 @@ General Styles - Owlcarousel
   font-weight: 400;
   font-size: 22px;
   color: #fff;
+  height: 60px;
 }
 
 .navbar-custom .nav li > a {
@@ -1401,6 +1403,12 @@ General Styles - Owlcarousel
   font-size: 48px;
 }
 
+
+.titan-title-size-114 {
+  letter-spacing: 18px;
+  font-weight: 200;
+  font-size: 30px;
+}
 /* Agency Page Header */
 .agency-page-header:before {
   background: transparent;
